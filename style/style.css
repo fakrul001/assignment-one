@@ -4,19 +4,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+  color: rgb(13, 19, 33);
 }
 
 .d-flex {
   display: flex;
 }
 
-.text {
-  font-family: "Azeret Mono", monospace;
-}
-
 .btn-learn {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 14px;
   font-weight: 600;
   line-height: 23px;
@@ -45,7 +41,6 @@
 }
 
 #banner .banner-heading {
-  color: rgb(13, 19, 33);
   font-size: 33px;
   font-weight: 800;
   line-height: 50px;
@@ -55,7 +50,6 @@
 }
 
 #banner .banner-description {
-  color: rgb(13, 19, 33);
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -87,11 +81,10 @@
 #reason {
   max-width: 1048px;
   max-height: 1283px;
-  margin: 74px auto;
+  margin: 80px auto;
 }
 
 .reason-heading {
-  color: rgb(13, 19, 33);
   font-size: 28px;
   font-weight: 800;
   line-height: 30px;
@@ -100,7 +93,6 @@
 }
 
 .reason-description {
-  color: rgb(13, 19, 33);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -121,7 +113,6 @@
 }
 
 .reason-headline {
-  color: rgba(13, 19, 33, 0.7);
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -131,7 +122,6 @@
 }
 
 .reason-text {
-  color: rgb(13, 19, 33);
   max-width: 80%;
   font-size: 14px;
   font-weight: 400;
@@ -141,28 +131,66 @@
   opacity: 0.7;
 }
 
-.reason-one-pic{
-    height: 250px;
+.reason-one-pic {
+  height: 250px;
 }
 
 /* reason two starts */
-.reason-two{
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+.reason-two {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
-.reason-two-pic{
-    height: 300px;
-    margin-right: 30px;
+.reason-two-pic {
+  height: 300px;
+  margin-right: 30px;
 }
 
 /* Reason three starts*/
-.reason-three{
-    justify-content: center;
-    align-items: center;
+.reason-three {
+  justify-content: center;
+  align-items: center;
 }
 
-.reason-three-pic{
-    height: 300px;
+.reason-three-pic {
+  height: 300px;
+}
+
+/* Inspiration section starts */
+#inspiration {
+  max-width: 1048px;
+  max-height: 713px;
+  margin: 80px auto;
+}
+
+.inspiration-heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.inspiration-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+.inspirational-video{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.video-content{
+    border-radius: 8px;
+    height: 506px;
+    width: 100%;
 }
